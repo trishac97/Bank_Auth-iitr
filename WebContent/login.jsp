@@ -17,9 +17,7 @@
     <!-- Tabs Titles -->
     <h2 class="active"> Sign In </h2>
        <div style="color: red;background-color: rgba(0,0,255,0.1);margin-bottom: 20px"><b>
-                                
     				<%
-    			
         if(request.getAttribute("servermsg")!=null)
         	out.print(request.getAttribute("servermsg"));%>
         	</div>	

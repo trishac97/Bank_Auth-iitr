@@ -19,10 +19,8 @@
     <h2 class="active"> Sign In </h2>
    <%!String acc_no=null; %>
 <%acc_no=(String)request.getParameter("acc_no"); %>
-<%! HttpSession session;%>
-<% session= request.getSession(true); %>
-	      <%  String acc_no=(String)session.getAttribute("acc_no"); %>
-        <%System.out.println("U ENTERED"+acc_no); %>
+
+
     
 <form method="post" action="passAuth">
 <div class="avatar">
@@ -31,7 +29,7 @@
    
             <input type="text" id="password" class="fadeIn third" name="password" placeholder="Password">
                
-      <input type="submit" class="fadeIn fourth" value="Log In">
+    <a  href="passAuth?acc_no=<%=acc_no%>"> <input type="submit" class="fadeIn fourth" value="Log In">
     </form>
 
     <!-- Remind Passowrd -->
