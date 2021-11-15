@@ -1,0 +1,3 @@
+# Bank_Auth-iitr
+
+Safe Banking is a software developed for carrying out banking transaction with the main concern of enhancing security into the process of login and logout. Here we have implemented user picture verification along with password validation. One user needs to provide userid and a random code in the initial step. If the userid is existing, then it will redirect to the second page where the user need to enter password and have to select one security picture which he selected during the registration procedure. On successful password and picture validation, the user can access his/her bank account and can avail the banking facilities.
